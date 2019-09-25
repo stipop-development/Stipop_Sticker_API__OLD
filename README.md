@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#Intro">Intro</a> •
-  <a href="#Get-Started">Get started</a> •
+  <a href="#Get-Started">get-started-rocket</a> •
   <a href="#1-sticker-pack-api-default-best-100">Pack API</a> •
   <a href="#2-sticker-id-api">ID API</a> •
   <a href="#announcements-loudspeaker">Announcements</a> •
