@@ -1,5 +1,9 @@
 **Stipop Sticker API**
-----
+
+![Works with Android](https://img.shields.io/badge/Works_with-Android-green?style=flat-square)
+![Works with iOS](https://img.shields.io/badge/Works_with-iOS-blue?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/stipop-development/Stipop_Sticker_API?style=flat-square)
+
   <_Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple)._>
 
 * **URL**
