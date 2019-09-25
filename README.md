@@ -10,7 +10,7 @@
 <h4 align="center">Propel user engagement, retention, and conversion with stipop sticker API</h4>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
+  <a href="#Stipop Sticker API">API</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
