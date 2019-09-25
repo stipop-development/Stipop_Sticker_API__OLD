@@ -13,6 +13,11 @@ Seeing that sticker is a useful media, we as a team started a platform, where st
 
 <_Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple)._>
 
+## Get started :rocket:
+
+To get started, review the 'README' files in the [Stipop_Sticker_API](https://github.com/stipop-development/Stipop_Sticker_API) repository.
+
+
 * **URL**
 
   <_The URL Structure (path only, no root url)_>
