@@ -41,7 +41,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 
 
-## 1) Sticker API (default: Best 100)
+## 1) Sticker-Pack API (default: Best 100)
 
 * **URL**
 
