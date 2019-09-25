@@ -72,12 +72,12 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
    **Required:**
  
-   `apikey=[string]` 발급받은 apikey 값
+   `apikey=[string]` Issued apikey value
 
 
 * **Request Parameters**
 
-  `languageCode=[string]` all:전체, ko:한국어, en:영어, es:스페인어
+  `languageCode=[string]` all:Common, en:English, es:Spanish, ko:Korean
 
 * **Success Response:**
 
@@ -152,7 +152,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
    **Required:**
  
-   `apikey=[string]` 발급받은 apikey 값
+   `apikey=[string]` Issued apikey value
 
 
 * **Request Parameters**
