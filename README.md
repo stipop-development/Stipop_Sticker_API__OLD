@@ -78,9 +78,6 @@ Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.c
  
    `apikey=[integer]` 발급받은 apikey 값
 
-   **Optional:**
- 
-   `none`
 
 * **Request Parameters**
 
@@ -89,7 +86,8 @@ Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.c
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{
+    **Content:** 
+    `{
     "status": "success",
     "code": "0000",
     "packages": [
