@@ -66,7 +66,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   * **Code:** 200 <br />
     **Content:** <br />
-    `{
+    ```json
+    {
     "status": "success",
     "code": "0000",
     "packages": [
@@ -87,7 +88,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
             "animatedYn": "N"
         },
         .......
-        ]`
+        ]
+        ```
  
 * **Error Response:**
 
