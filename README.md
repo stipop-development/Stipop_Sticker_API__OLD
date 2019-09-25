@@ -70,7 +70,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     {
     "status": "success",
     "code": "0000",
-    "packages": [
+    "packages": 
+    [
         {
             "packageId": 0,
             "packageName": "sticker 1",
@@ -86,10 +87,9 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
             "keywords": "keyword1, keyword2",
             "language": "Spanish",
             "animatedYn": "N"
-        },
-        .......
-        ]
-        ```
+        }
+    ]
+    ```
  
 * **Error Response:**
 
