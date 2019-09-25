@@ -1,11 +1,5 @@
 
-<h1 align="center">
-  <br>
-  <img src="https://cdn3.imggmi.com/uploads/2019/9/25/342c9fcf023615025e4f760006661a63-full.png" alt="Markdownify" width="200"></a>
-  <br>
-  Stipop
-  <br>
-</h1>
+
 
 <h4 align="center">Propel user engagement, retention, and conversion with stipop sticker API</h4>
 
@@ -18,7 +12,13 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+<h1 align="center">
+  <br>
+  <img src="https://cdn3.imggmi.com/uploads/2019/9/25/342c9fcf023615025e4f760006661a63-full.png" alt="Markdownify" width="200"></a>
+  <br>
+  Stipop
+  <br>
+</h1>
 
 
 
