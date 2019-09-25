@@ -12,7 +12,7 @@
 <p align="center">
   <a href="#Intro">Intro</a> •
   <a href="#Get-Started">Get started</a> •
-  <a href="#Sticker-API-(default:-Best-100)">Sticker API</a> •
+  <a href="#Sticker-API">Sticker API</a> •
   <a href="#credits">Credits</a> •
   <a href="#related">Related</a> •
   <a href="#license">License</a>
