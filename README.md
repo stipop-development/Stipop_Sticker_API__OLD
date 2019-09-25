@@ -47,7 +47,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/best
+  /v1/package/best/:languageCode
 
 * **Method:**
 
@@ -62,7 +62,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **Request Parameters**
 
-  `none`
+  `languageCode=[integer]` all:전체, ko:한국어, en:영어, es:스페인어
 
 * **Success Response:**
 
