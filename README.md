@@ -18,7 +18,7 @@ Seeing that sticker is a useful media, we as a team started a platform, where st
 To get started, review the 'README' files in the [Stipop_Sticker_API](https://github.com/stipop-development/Stipop_Sticker_API) repository.
 
 ## Announcements :loudspeaker:
-Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/Announcements) for recent changes.
+Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sticker_API/wiki/Announcements) for recent changes.
 
 ## Opening Issues :warning:
 
@@ -26,6 +26,18 @@ Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sti
 > For support, please contact <webmaster@stipop.io>.
 
 - Create a [**general issue**](https://github.com/stipop-development/Stipop_Sticker_API/issues/new?template=general.md)
+
+## Opening Pull Requests
+
+> In order for us to accept pull requests, please complete the Contributor License Agreement by following instructions in [`CONTRIBUTING`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/CONTRIBUTING.md).
+
+1. Please check that a similar pull request doesn't exist already [here](https://github.com/stipop-development/Stipop_Sticker_API/pulls)
+2. [Open a new pull request](https://github.com/stipop-development/Stipop_Sticker_API/compare)
+3. Wait for someone to look at it :watch:
+
+## License
+
+Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/LICENSE) file.
 
 
 * **URL**
