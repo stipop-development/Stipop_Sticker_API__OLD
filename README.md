@@ -121,7 +121,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **Notes:**
 
-## 2) 패키지 상세조회 Api
+## 2) Sticker-ID Api
 
 * **URL**
 
