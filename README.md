@@ -10,7 +10,7 @@
 <h4 align="center">Propel user engagement, retention, and conversion with stipop sticker API</h4>
 
 <p align="center">
-  <a href="#Stipop-Sticker-API">API</a> •
+  <a href="#Intro">Intro</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
@@ -22,7 +22,7 @@
 
 
 
-## Stipop Sticker API
+## Intro
 
 ![Works with Android](https://img.shields.io/badge/Works_with-Android-green?style=flat-square)
 ![Works with iOS](https://img.shields.io/badge/Works_with-iOS-blue?style=flat-square)
