@@ -12,8 +12,8 @@
 <p align="center">
   <a href="#Intro">Intro</a> •
   <a href="#Get-Started">Get started</a> •
-  <a href="#1-sticker-api-default-best-100">Sticker API</a> •
-  <a href="#credits">Credits</a> •
+  <a href="#1-sticker-pack-api-default-best-100">Pack API</a> •
+  <a href="#https://github.com/stipop-development/Stipop_Sticker_API#2-sticker-id-api">ID API</a> •
   <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
@@ -121,7 +121,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **Notes:**
 
-## 2) Sticker-ID Api
+## 2) Sticker-ID API
 
 * **URL**
 
