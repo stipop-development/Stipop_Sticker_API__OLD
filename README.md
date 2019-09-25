@@ -115,7 +115,9 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **Sample Call:**
 
-  `curl --location --request GET "https://bapi.stipop.io/v1/packages/best" \ --header "apikey: {YOUR_API_KEY}"`
+  ```curl
+  curl --location --request GET "https://bapi.stipop.io/v1/packages/best" \ --header "apikey: {YOUR_API_KEY}"
+  ```
 
 * **Notes:**
 
