@@ -17,6 +17,16 @@ Seeing that sticker is a useful media, we as a team started a platform, where st
 
 To get started, review the 'README' files in the [Stipop_Sticker_API](https://github.com/stipop-development/Stipop_Sticker_API) repository.
 
+## Announcements :loudspeaker:
+Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/Announcements) for recent changes.
+
+## Opening Issues :warning:
+
+> Only use the GitHub Issues section if you discovered **issues with the code itself**. Do not mistake the Issues page as a help desk. You can ask for help at [Stack Overflow](https://stackoverflow.com/).  
+> For support, please contact <webmaster@stipop.io>.
+
+- Create a [**general issue**](https://github.com/stipop-development/Stipop_Sticker_API/issues/new?template=general.md)
+
 
 * **URL**
 
