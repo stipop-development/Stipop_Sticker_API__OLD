@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#Intro">Intro</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#Get-Started">Get started</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
   <a href="#related">Related</a> •
