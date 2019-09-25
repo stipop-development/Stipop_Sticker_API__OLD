@@ -62,7 +62,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **Request Parameters**
 
-  `languageCode=[integer]` all:전체, ko:한국어, en:영어, es:스페인어
+  `languageCode=[string]` all:전체, ko:한국어, en:영어, es:스페인어
 
 * **Success Response:**
 
