@@ -14,7 +14,9 @@
   <a href="#Get-Started">Get started</a> •
   <a href="#1-sticker-pack-api-default-best-100">Pack API</a> •
   <a href="#2-sticker-id-api">ID API</a> •
-  <a href="#related">Related</a> •
+  <a href="#announcements-loudspeaker">Announcements</a> •
+  <a href="#opening-issues-warning">Issues</a> •
+  <a href="#opening-pull-requests">Pull</a> •
   <a href="#license">License</a>
 </p>
 
