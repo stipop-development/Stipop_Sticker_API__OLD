@@ -34,15 +34,14 @@ Sticker is one of the most powerful visual contents you can find in the digital 
 
 Seeing that sticker is a useful media, we as a team started a platform, where stickers and sticker lovers can play about. Our product began as an app for messenger users to download stickers for their personal use. Now that there is more than 2,000 sticker artists participating from 20 different countries and the total sticker accumulate to 100,000 we thought it best that other companies should be able to provide stickers to their own users.
 
-<_Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple)._>
 
 ## Get started :rocket:
 
-To get started, review the 'README' files in the [Stipop_Sticker_API](https://github.com/stipop-development/Stipop_Sticker_API) repository.
+To get started, review sections below in the 'README' files in the [Stipop_Sticker_API](https://github.com/stipop-development/Stipop_Sticker_API) repository.
 
 
 
-## 1) Best Sticker top 100 Api
+## 1) Sticker API (default: Best 100)
 
 * **URL**
 
