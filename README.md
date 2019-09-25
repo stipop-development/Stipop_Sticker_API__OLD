@@ -87,27 +87,27 @@ Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.c
 
   * **Code:** 200 <br />
     **Content:** <br />
-    `{<br />
-    "status": "success",<br />
-    "code": "0000",<br />
-    "packages": [<br />
-        {<br />
-            "packageId": 0,<br />
-            "packageName": "sticker 1",<br />
-            "mainImgUrl": "https://....Z41sOfn7Z.png",<br />
-            "keywords": "keyword1, keyword2",<br />
-            "language": "korean",<br />
-            "animatedYn": "N"<br />
-        },<br />
-        {<br />
-            "packageId": 1,<br />
-            "packageName": "sticker 2",<br />
-            "mainImgUrl": "https://....eNSPZR3r2D.png",<br />
-            "keywords": "keyword1, keyword2",<br />
-            "language": "Spanish",<br />
-            "animatedYn": "N"<br />
-        },<br />
-        .......<br />
+    `{`
+    `"status": "success",`
+    `"code": "0000",
+    "packages": [
+        {
+            "packageId": 0,
+            "packageName": "sticker 1",
+            "mainImgUrl": "https://....Z41sOfn7Z.png",
+            "keywords": "keyword1, keyword2",
+            "language": "korean",
+            "animatedYn": "N"
+        },
+        {
+            "packageId": 1,
+            "packageName": "sticker 2",
+            "mainImgUrl": "https://....eNSPZR3r2D.png",
+            "keywords": "keyword1, keyword2",
+            "language": "Spanish",
+            "animatedYn": "N"
+        },
+        .......
         ]`
  
 * **Error Response:**
