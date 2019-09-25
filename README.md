@@ -136,7 +136,6 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   curl --location --request GET "https://bapi.stipop.io/v1/packages/best" \ --header "apikey: {YOUR_API_KEY}"
   ```
 
-* **Notes:**
 
 ## 2) Sticker-ID API
 
@@ -211,7 +210,6 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   curl --location --request GET "https://bapi.stipop.io/v1/packages/{pakcageId}" \ --header "apikey: {YOUR_API_KEY}"
   ```
 
-* **Notes:**
 
 ## Announcements :loudspeaker:
 Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sticker_API/wiki/Announcements) for recent changes.
