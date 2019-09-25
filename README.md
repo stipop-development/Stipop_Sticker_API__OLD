@@ -87,9 +87,9 @@ Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.c
 
   * **Code:** 200 <br />
     **Content:** <br />
-    `{`
-    `"status": "success",`
-    `"code": "0000",
+    `{
+    "status": "success",
+    "code": "0000",
     "packages": [
         {
             "packageId": 0,
