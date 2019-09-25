@@ -22,7 +22,7 @@
 
 
 
-**Stipop Sticker API**
+## Stipop Sticker API
 ----
 
 ![Works with Android](https://img.shields.io/badge/Works_with-Android-green?style=flat-square)
