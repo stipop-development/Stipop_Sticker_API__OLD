@@ -63,56 +63,72 @@ Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sti
 Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/LICENSE) file.
 
 ## API
-
+1) Best Sticker top 100
 * **URL**
 
-  <_The URL Structure (path only, no root url)_>
+  /v1/package/best
 
 * **Method:**
-  
-  <_The request type_>
 
-  `GET` | `POST` | `DELETE` | `PUT`
+  `GET`
   
-*  **URL Params**
-
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
+*  **Request Headers**
 
    **Required:**
  
-   `id=[integer]`
+   `apikey=[integer]` 발급받은 apikey 값
 
    **Optional:**
  
-   `photo_id=[alphanumeric]`
+   `none`
 
-* **Data Params**
+* **Request Parameters**
 
-  <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
+  `none`
 
 * **Success Response:**
-  
-  <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
+    **Content:** `{
+    "status": "success",
+    "code": "0000",
+    "packages": [
+        {
+            "packageId": 0,
+            "packageName": "sticker 1",
+            "mainImgUrl": "https://....Z41sOfn7Z.png",
+            "keywords": "keyword1, keyword2",
+            "language": "korean",
+            "animatedYn": "N"
+        },
+        {
+            "packageId": 1,
+            "packageName": "sticker 2",
+            "mainImgUrl": "https://....eNSPZR3r2D.png",
+            "keywords": "keyword1, keyword2",
+            "language": "Spanish",
+            "animatedYn": "N"
+        },
+        .......
+        ]`
  
 * **Error Response:**
 
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
   * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
+    **Content:** 
+    `{
+    "status": "fail",
+    "message": "non exist apikey",
+    "code": "9000"
+}`
 
   OR
 
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
+  * **Code:** 500 UNPROCESSABLE ENTRY <br />
+    **Content:** `{"status" : "fail", "message": 'server error', code:"9010"}`
 
 * **Sample Call:**
 
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
+  `curl --location --request GET "https://bapi.stipop.io/v1/packages/best \ --header "apikey: {YOUR_API_KEY}"`
 
 * **Notes:**
-
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 
