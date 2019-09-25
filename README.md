@@ -68,26 +68,25 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     **Content:** <br />
     ```json
     {
-    "status": "success",
-    "code": "0000",
-    "packages": 
-    [
-        {
-            "packageId": 0,
-            "packageName": "sticker 1",
-            "mainImgUrl": "https://....Z41sOfn7Z.png",
-            "keywords": "keyword1, keyword2",
-            "language": "korean",
-            "animatedYn": "N"
-        },
-        {
-            "packageId": 1,
-            "packageName": "sticker 2",
-            "mainImgUrl": "https://....eNSPZR3r2D.png",
-            "keywords": "keyword1, keyword2",
-            "language": "Spanish",
-            "animatedYn": "N"
-        }
+      "status": "success",
+      "code": "0000",
+      "packages": [
+      {
+          "packageId": 0,
+          "packageName": "sticker 1",
+          "mainImgUrl": "https://....Z41sOfn7Z.png",
+          "keywords": "keyword1, keyword2",
+          "language": "korean",
+          "animatedYn": "N"
+      },
+      {
+          "packageId": 1,
+          "packageName": "sticker 2",
+          "mainImgUrl": "https://....eNSPZR3r2D.png",
+          "keywords": "keyword1, keyword2",
+          "language": "Spanish",
+          "animatedYn": "N"
+      }
     ]
     ```
  
@@ -95,16 +94,24 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** 
-    `{
-    "status": "fail",
-    "message": "non exist apikey",
-    "code": "9000"
-}`
-
-  OR
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist apikey",
+      "code": "9000"
+    }
+    ```
+    OR
 
   * **Code:** 500 Internal Server error <br />
-    **Content:** `{"status" : "fail", "message": 'server error', code:"9010"}`
+    **Content:** 
+    ```json
+    {
+       "status" : "fail", 
+       "message": 'server error', 
+       code:"9010"
+    }
+    ```
 
 * **Sample Call:**
 
@@ -138,10 +145,11 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   * **Code:** 200 <br />
     **Content:** <br />
-    `{
-    "status": "success",
-    "code": "0000",
-    "stickers": [
+    ```json
+    {
+        "status": "success",
+        "code": "0000",
+        "stickers": [
         {
             "packageId": 1,
             "stickerId": 790,
@@ -151,28 +159,38 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
             "packageId": 1,
             "stickerId": 791,
             "stickerImgUrl": "https://...img2.png"
-        },
-        .......
-        ]`
+        }]
+    }
+    ```
  
 * **Error Response:**
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** 
-    `{
-    "status": "fail",
-    "message": "non exist apikey",
-    "code": "9000"
-}`
-
-  OR
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist apikey",
+      "code": "9000"
+    }
+    ```
+    OR
 
   * **Code:** 500 Internal Server error <br />
-    **Content:** `{"status" : "fail", "message": 'server error', code:"9010"}`
+    **Content:** 
+    ```json
+    {
+       "status" : "fail", 
+       "message": 'server error', 
+       code:"9010"
+    }
+    ```
 
 * **Sample Call:**
 
-  `curl --location --request GET "https://bapi.stipop.io/v1/packages/{pakcageId}" \ --header "apikey: {YOUR_API_KEY}"`
+  ```curl
+  curl --location --request GET "https://bapi.stipop.io/v1/packages/{pakcageId}" \ --header "apikey: {YOUR_API_KEY}"
+  ```
 
 * **Notes:**
 
