@@ -39,6 +39,7 @@ Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sti
 
 Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/LICENSE) file.
 
+## API
 
 * **URL**
 
