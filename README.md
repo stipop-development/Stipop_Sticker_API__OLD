@@ -62,8 +62,8 @@ Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sti
 
 Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/LICENSE) file.
 
-## API
-1) Best Sticker top 100
+## 1) Best Sticker top 100
+
 * **URL**
 
   /v1/package/best
@@ -76,7 +76,7 @@ Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.c
 
    **Required:**
  
-   `apikey=[integer]` 발급받은 apikey 값
+   `apikey=[string]` 발급받은 apikey 값
 
 
 * **Request Parameters**
@@ -122,11 +122,11 @@ Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.c
 
   OR
 
-  * **Code:** 500 UNPROCESSABLE ENTRY <br />
+  * **Code:** 500 Internal Server error <br />
     **Content:** `{"status" : "fail", "message": 'server error', code:"9010"}`
 
 * **Sample Call:**
 
-  `curl --location --request GET "https://bapi.stipop.io/v1/packages/best \ --header "apikey: {YOUR_API_KEY}"`
+  `curl --location --request GET "https://bapi.stipop.io/v1/packages/best" \ --header "apikey: {YOUR_API_KEY}"`
 
 * **Notes:**
