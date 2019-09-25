@@ -17,7 +17,6 @@
   <a href="#2-sticker-id-api">ID API</a> •
   <a href="#announcements-loudspeaker">Announcements</a> •
   <a href="#opening-issues-warning">Issues</a> •
-  <a href="#opening-pull-requests">Pull</a> •
   <a href="#license">License</a>
 </p>
 
@@ -221,13 +220,6 @@ Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sti
 
 - Create a [**general issue**](https://github.com/stipop-development/Stipop_Sticker_API/issues/new?template=general.md)
 
-## Opening Pull Requests
-
-> In order for us to accept pull requests, please complete the Contributor License Agreement by following instructions in [`CONTRIBUTING`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/CONTRIBUTING.md).
-
-1. Please check that a similar pull request doesn't exist already [here](https://github.com/stipop-development/Stipop_Sticker_API/pulls)
-2. [Open a new pull request](https://github.com/stipop-development/Stipop_Sticker_API/compare)
-3. Wait for someone to look at it :watch:
 
 ## License
 
