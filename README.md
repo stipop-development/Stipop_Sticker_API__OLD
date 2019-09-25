@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="#Intro">Intro</a> •
+  <a href="#Key-Features">Key Features</a> •
   <a href="#get-started-rocket">Get Started</a> •
   <a href="#1-sticker-pack-api-default-best-100">Pack API</a> •
   <a href="#2-sticker-id-api">ID API</a> •
@@ -35,6 +36,20 @@
 Sticker is one of the most powerful visual contents you can find in the digital world. With more than 50 billion being sent everyday, it brings emotion into online communicaton. Unlike GIFs, because it has specific artist who created it with a purpose (for online communication, character etc.) it's very unique and usable. 
 
 Seeing that sticker is a useful media, we as a team started a platform, where stickers and sticker lovers can play about. Our product began as an app for messenger users to download stickers for their personal use. Now that there is more than 2,000 sticker artists participating from 20 different countries and the total sticker accumulate to 100,000 we thought it best that other companies should be able to provide stickers to their own users.
+
+
+## Key Features
+* Sticker Package
+  - 100,000 stickers uploaded by 2,000 artists from 20 different countries.
+  - Every sticker has been through the approval process where stipop App users decide.
+* Multi-language Contents
+  - English/Spanish/Korean
+* Regional Best
+  - Top 100 download list provided in specified langauge speaking countries
+* Daily Update
+  - All sticker list updated in a daily basis with new stickers added in automatically
+* Favorites (preparing)
+  - API to provide list of stickers used the most by a specific end user
 
 
 ## Get started :rocket:
