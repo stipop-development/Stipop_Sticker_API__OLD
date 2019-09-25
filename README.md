@@ -87,22 +87,23 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
       "status": "success",
       "code": "0000",
       "packages": [
-      {
-          "packageId": 0,
-          "packageName": "sticker 1",
-          "mainImgUrl": "https://....Z41sOfn7Z.png",
-          "keywords": "keyword1, keyword2",
-          "language": "korean",
-          "animatedYn": "N"
-      },
-      {
-          "packageId": 1,
-          "packageName": "sticker 2",
-          "mainImgUrl": "https://....eNSPZR3r2D.png",
-          "keywords": "keyword1, keyword2",
-          "language": "Spanish",
-          "animatedYn": "N"
-      }]
+        {
+            "packageId": 0,
+            "packageName": "sticker 1",
+            "mainImgUrl": "https://....Z41sOfn7Z.png",
+            "keywords": "keyword1, keyword2",
+            "language": "korean",
+            "animatedYn": "N"
+        },
+        {
+            "packageId": 1,
+            "packageName": "sticker 2",
+            "mainImgUrl": "https://....eNSPZR3r2D.png",
+            "keywords": "keyword1, keyword2",
+            "language": "Spanish",
+            "animatedYn": "N"
+        }
+       ]
     }
     ```
  
@@ -167,16 +168,17 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
         "status": "success",
         "code": "0000",
         "stickers": [
-        {
-            "packageId": 1,
-            "stickerId": 790,
-            "stickerImgUrl": "https://...img1.png"
-        },
-        {
-            "packageId": 1,
-            "stickerId": 791,
-            "stickerImgUrl": "https://...img2.png"
-        }]
+          {
+              "packageId": 1,
+              "stickerId": 790,
+              "stickerImgUrl": "https://...img1.png"
+          },
+          {
+              "packageId": 1,
+              "stickerId": 791,
+              "stickerImgUrl": "https://...img2.png"
+          }
+        ]
     }
     ```
  
