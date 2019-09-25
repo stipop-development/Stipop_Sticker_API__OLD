@@ -62,7 +62,7 @@ Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sti
 
 Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/LICENSE) file.
 
-## 1) Best Sticker top 100
+## 1) Best Sticker top 100 Api
 
 * **URL**
 
@@ -128,5 +128,69 @@ Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.c
 * **Sample Call:**
 
   `curl --location --request GET "https://bapi.stipop.io/v1/packages/best" \ --header "apikey: {YOUR_API_KEY}"`
+
+* **Notes:**
+
+## 2) 패키지 상세조회 Api
+
+* **URL**
+
+  /v1/package/:packageId
+
+* **Method:**
+
+  `GET`
+  
+*  **Request Headers**
+
+   **Required:**
+ 
+   `apikey=[string]` 발급받은 apikey 값
+
+
+* **Request Parameters**
+
+  **Required:**
+  `packageId=[integer]`
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** <br />
+    `{
+    "status": "success",
+    "code": "0000",
+    "stickers": [
+        {
+            "packageId": 1,
+            "stickerId": 790,
+            "stickerImgUrl": "https://...img1.png"
+        },
+        {
+            "packageId": 1,
+            "stickerId": 791,
+            "stickerImgUrl": "https://...img2.png"
+        },
+        .......
+        ]`
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    `{
+    "status": "fail",
+    "message": "non exist apikey",
+    "code": "9000"
+}`
+
+  OR
+
+  * **Code:** 500 Internal Server error <br />
+    **Content:** `{"status" : "fail", "message": 'server error', code:"9010"}`
+
+* **Sample Call:**
+
+  `curl --location --request GET "https://bapi.stipop.io/v1/packages/{pakcageId}" \ --header "apikey: {YOUR_API_KEY}"`
 
 * **Notes:**
