@@ -86,8 +86,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
           "keywords": "keyword1, keyword2",
           "language": "Spanish",
           "animatedYn": "N"
-      }
-    ]
+      }]
+    }
     ```
  
 * **Error Response:**
@@ -108,8 +108,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     ```json
     {
        "status" : "fail", 
-       "message": 'server error', 
-       code:"9010"
+       "message": "server error", 
+       "code":"9010"
     }
     ```
 
@@ -181,8 +181,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     ```json
     {
        "status" : "fail", 
-       "message": 'server error', 
-       code:"9010"
+       "message": "server error", 
+       "code":"9010"
     }
     ```
 
