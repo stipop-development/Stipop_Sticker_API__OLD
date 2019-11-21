@@ -207,6 +207,71 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v1/packages/{pakcageId}" \ --header "apikey: {YOUR_API_KEY}"
   ```
+  
+## 3) Sticker Send Analytics API
+
+* **URL**
+
+  /v1/analytics/send
+
+* **Method:**
+
+  `POST`
+  
+*  **Request Headers**
+
+   **Required:**
+ 
+   `apikey=[string]` Issued apikey value
+
+
+* **Request Body**
+
+  **Required:**
+  `packageId=[integer]`
+  `stickerId=[integer]`
+  `userId=[string]`
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** <br />
+    ```json
+    {
+        "status": "success",
+        "code": "0000"
+        ]
+    }
+    ```
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist apikey",
+      "code": "9000"
+    }
+    ```
+    OR
+
+  * **Code:** 500 Internal Server error <br />
+    **Content:** 
+    ```json
+    {
+       "status" : "fail", 
+       "message": "server error", 
+       "code":"9010"
+    }
+    ```
+
+* **Sample Call:**
+
+  ```curl
+  curl --location --request POST "https://bapi.stipop.io/v1/analytics/send" \ --header "apikey: {YOUR_API_KEY}"
+  ```
 
 
 ## Announcements :loudspeaker:
