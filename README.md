@@ -240,7 +240,6 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     {
         "status": "success",
         "code": "0000"
-        ]
     }
     ```
  
