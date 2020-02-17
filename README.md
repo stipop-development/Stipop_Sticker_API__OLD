@@ -130,7 +130,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/best/ko" \ --header "apikey: {YOUR_API_KEY}"
+  curl --location --request GET "https://bapi.stipop.io/v1/package/best/ko" \ --header "apikey:{YOUR_API_KEY}"
   ```
 
 
