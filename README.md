@@ -36,10 +36,10 @@ Seeing how sticker are a useful kind of media, we as a team started a platform, 
 
 ## Key Features
 * Sticker Package
-  - 100,000 stickers uploaded by 2,000 artists from 20 different countries.
-  - Every sticker has been through the approval process where stipop App users decide.
+  - 100,000 stickers uploaded by 5,000 global artists around the world. 
+  - Customized sticker packs that capture the preferences of your target users, recommended and assorted through Stipop’s millions of user data. 
 * Multi-language Contents
-  - English/Spanish/Korean
+  - English/Spanish/German/French/Portuguese/Korean
 * Regional Best
   - Top 100 download list provided in specified langauge speaking countries
 * Daily Update
