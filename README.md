@@ -39,7 +39,8 @@ Seeing how sticker are a useful kind of media, we as a team started a platform, 
   - 100,000 stickers uploaded by 5,000 global artists around the world. 
   - Customized sticker packs that capture the preferences of your target users, recommended and assorted through Stipop’s millions of user data. 
 * Multi-language Contents
-  - English/Spanish/German/French/Portuguese/Korean
+  - English/Spanish/Hindi/Russian/German/French/Portuguese/Italian/Simplified-Chinese/Traditional-Chinese/Catonese/Japanese/Thai/Indonesian
+/Korean
 * Regional Best
   - Top 100 download list provided in specified langauge speaking countries
 * Daily Update
