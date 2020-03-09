@@ -229,7 +229,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **Request Parameters**
 
-  **Required:**
+  **Required:** <br />
    `pageNumber=[integer]` greater than 1<br />
    `pageSize=[integer]` greater than 1<br />
    `stickerSize=[integer]` greater than 1<br />
@@ -348,7 +348,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/{pakcageId}" \ --header "apikey:{YOUR_API_KEY}"
+  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:{YOUR_API_KEY}"
   ```
 
 
