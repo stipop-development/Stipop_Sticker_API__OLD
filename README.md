@@ -208,16 +208,17 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v1/package/{pakcageId}" \ --header "apikey:{YOUR_API_KEY}"
   ```
-  
-## 3) Sticker Send Analytics API
+
+
+## 3) Best Package API ( Coming soon after 16 March)
 
 * **URL**
 
-  /v1/analytics/send
+  /v1/package/b2b/best/all
 
 * **Method:**
 
-  `POST`
+  `GET`
   
 *  **Request Headers**
 
@@ -226,12 +227,14 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
    `apikey=[string]` Issued apikey value
 
 
-* **Request Body**
+* **Request Parameters**
 
   **Required:**
-  `packageId=[integer]`
-  `stickerId=[integer]`
-  `userId=[string]`
+   `pageNumber=[integer]` greater than 1<br />
+   `pageSize=[integer]` greater than 1<br />
+   `stickerSize=[integer]` greater than 1<br />
+   `languageCode=[string]` all:Common, en:English, es:Spanish, ko:Korean <br />
+   `thumbnail=[integer]` if gif, value 1 shows thumbnail(png format) , default 0<br />
 
 * **Success Response:**
 
@@ -239,12 +242,78 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     **Content:** <br />
     ```json
     {
+    "header": {
         "status": "success",
         "code": "0000"
+    },
+    "body": [
+        {
+            "packageId": 1197,
+            "packageName": "Daily muu",
+            "packageArtist": "pretty ming",
+            "mainImgUrl": "https://.....1798_ddada_muu_3.png",
+            "language": "English",
+            "animatedYn": "N",
+            "sticker": [
+                {
+                    "s_id": 23340,
+                    "p_id": 1197,
+                    "imgUrl": "https://.....8882_ddada_muu_1.png",
+                    "thumb": 0
+                },
+                {
+                    "s_id": 23352,
+                    "p_id": 1197,
+                    "imgUrl": "https://.....9004_ddada_muu_2.png",
+                    "thumb": 0
+                }
+              ]
+          }
+        ]
     }
     ```
  
 * **Error Response:**
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "pageNumber is only a number",
+      "code": "9010"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "pageSize is only a number",
+      "code": "9011"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "stickersize is only a number",
+      "code": "9012"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "please enter the correct language code",
+      "code": "9013"
+    }
+    ```
+
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** 
@@ -255,7 +324,16 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
       "code": "9000"
     }
     ```
-    OR
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "apikey is wrong",
+      "code": "9001"
+    }
+    ```
 
   * **Code:** 500 Internal Server error <br />
     **Content:** 
@@ -263,14 +341,14 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     {
        "status" : "fail", 
        "message": "server error", 
-       "code":"9010"
+       "code":"0001"
     }
     ```
 
 * **Sample Call:**
 
   ```curl
-  curl --location --request POST "https://bapi.stipop.io/v1/analytics/send" \ --header "apikey:{YOUR_API_KEY}"
+  curl --location --request GET "https://bapi.stipop.io/v1/package/{pakcageId}" \ --header "apikey:{YOUR_API_KEY}"
   ```
 
 
