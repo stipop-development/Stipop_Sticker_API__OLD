@@ -131,7 +131,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/best/ko" \ --header "apikey:{YOUR_API_KEY}"
+  curl --location --request GET "https://bapi.stipop.io/v1/package/best/ko" \ --header "apikey:av03Ea0w18953er"
   ```
 
 
@@ -206,7 +206,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/{pakcageId}" \ --header "apikey:{YOUR_API_KEY}"
+  curl --location --request GET "https://bapi.stipop.io/v1/package/9964" \ --header "apikey:av03Ea0w18953er"
   ```
 
 
@@ -348,8 +348,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ 
-       --header "apikey:{YOUR_API_KEY}"
+  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:7b841302b60302abv"
   ```
 
 
@@ -474,11 +473,125 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/best/main?pageNumber=1&pageSize=2&languageCode=en" \ 
-       --header "apikey:{YOUR_API_KEY}"
+       --header "apikey:7b841302b60302abv"
   ```
 
 
-## 5) User Download Package - 1 API ( Coming soon after 16 March)
+## 5) Package Detail API ( Coming soon after 16 March)
+
+* **URL**
+
+  /v1/package/b2b/detail
+
+* **Method:**
+
+  `GET`
+  
+*  **Request Headers**
+
+   **Required:**
+ 
+   `apikey=[string]` Issued apikey value
+
+
+* **Request Parameters**
+
+  **Required:** <br />
+   `packageId=[integer]`<br />
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** <br />
+    ```json
+    {
+    "header": {
+        "status": "success",
+        "code": "0000"
+    },
+    "body": [
+        {
+            "packageName": "Cute Bunny",
+            "uName": "Thomas.S",
+            "packageId": 127,
+            "stickerId": 902,
+            "stickerImgUrl": "https://.....unny_1.png",
+            "animatedYn": "N"
+        },
+        {
+            "packageName": "Cute Bunny",
+            "uName": "Thomas.S",
+            "packageId": 127,
+            "stickerId": 903,
+            "stickerImgUrl": "https://.....unny_2.png",
+            "animatedYn": "N"
+        }
+        ...
+      ]
+    }
+    ```
+ 
+* **Error Response:**
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "packageId is only a number",
+      "code": "9009"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist package",
+      "code": "9020"
+    }
+    ```
+
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist apikey",
+      "code": "9000"
+    }
+    ```
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "apikey is wrong",
+      "code": "9001"
+    }
+    ```
+
+  * **Code:** 500 Internal Server error <br />
+    **Content:** 
+    ```json
+    {
+       "status" : "fail", 
+       "message": "server error", 
+       "code":"0001"
+    }
+    ```
+
+* **Sample Call:**
+
+  ```curl
+  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/detail?packageId=198" \ 
+       --header "apikey:7b841302b60302abv"
+  ```
+
+
+## 6) User Download Package - 1 API ( Coming soon after 16 March)
 
 * **URL**
 
@@ -498,7 +611,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Request Parameters**
 
   **Required:** <br />
-   `userId=[integer]` greater than 1<br />
+   `userId=[string]` values ​​that can identify end users<br />
    `pageNumber=[integer]` greater than 1<br />
    `pageSize=[integer]` greater than 1<br />
    `stickerSize=[integer]` greater than 1<br />
@@ -616,11 +729,11 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/download/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
-       --header "apikey:{YOUR_API_KEY}"
+       --header "apikey:7b841302b60302abv"
   ```
 
 
-## 5) User Download Package - 2 API ( Coming soon after 16 March)
+## 7) User Download Package - 2 API ( Coming soon after 16 March)
 
 * **URL**
 
@@ -640,7 +753,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Request Parameters**
 
   **Required:** <br />
-   `userId=[integer]` greater than 1<br />
+   `userId=[string]` values ​​that can identify end users<br />
    `pageNumber=[integer]` greater than 1<br />
    `pageSize=[integer]` greater than 1<br />
 
@@ -740,8 +853,227 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/download/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
-       --header "apikey:{YOUR_API_KEY}"
+       --header "apikey:7b841302b60302abv"
   ```
+
+
+## 8) User Download Package - 3 API ( Coming soon after 16 March)
+
+* **URL**
+
+  /v1/package/b2b/download
+
+* **Method:**
+
+  `POST`
+  
+*  **Request Headers**
+
+   **Required:**
+ 
+   `apikey=[string]` Issued apikey value
+
+
+* **Request Parameters**
+
+  **Required:** <br />
+   `packageId=[integer]`<br />
+   `userId=[string]` values ​​that can identify end users<br />
+
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** <br />
+    ```json
+    {
+    "header": {
+        "status": "success",
+        "code": "0000"
+    }
+    ```
+ 
+* **Error Response:**
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "packageId is only a number",
+      "code": "9009"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "required userid",
+      "code": "9014"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist package",
+      "code": "9020"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "package already exists",
+      "code": "9023"
+    }
+    ```
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist apikey",
+      "code": "9000"
+    }
+    ``` 
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "apikey is wrong",
+      "code": "9001"
+    }
+    ```
+  * **Code:** 500 Internal Server error <br />
+    **Content:** 
+    ```json
+    {
+       "status" : "fail", 
+       "message": "server error", 
+       "code":"0001"
+    }
+    ```
+
+* **Sample Call:**
+
+  ```curl
+  curl --location --request POST "https://bapi.stipop.io/v1/package/b2b/download/main" \ 
+       --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
+  ```
+
+
+## 9) User Download Package - 4 API ( Coming soon after 16 March)
+
+* **URL**
+
+  /v1/package/b2b/download
+
+* **Method:**
+
+  `DELETE`
+  
+*  **Request Headers**
+
+   **Required:**
+ 
+   `apikey=[string]` Issued apikey value
+
+
+* **Request Parameters**
+
+  **Required:** <br />
+   `packageId=[integer]`<br />
+   `userId=[string]` values ​​that can identify end users<br />
+
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** <br />
+    ```json
+    {
+    "header": {
+        "status": "success",
+        "code": "0000"
+    }
+    ```
+ 
+* **Error Response:**
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "packageId is only a number",
+      "code": "9009"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "required userid",
+      "code": "9014"
+    }
+    ```
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist package",
+      "code": "9020"
+    }
+    ```
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "non exist apikey",
+      "code": "9000"
+    }
+    ``` 
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```json
+    {
+      "status": "fail",
+      "message": "apikey is wrong",
+      "code": "9001"
+    }
+    ```
+  * **Code:** 500 Internal Server error <br />
+    **Content:** 
+    ```json
+    {
+       "status" : "fail", 
+       "message": "server error", 
+       "code":"0001"
+    }
+    ```
+
+* **Sample Call:**
+
+  ```curl
+  curl --location --request DELETE "https://bapi.stipop.io/v1/package/b2b/download/main" \ 
+       --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
+  ```
+
 
 ## Announcements :loudspeaker:
 Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sticker_API/wiki/Announcements) for recent changes.
