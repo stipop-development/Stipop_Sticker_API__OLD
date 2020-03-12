@@ -347,7 +347,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:7b841302b60302abv"
+  curl --location --request GET "https://bapi.stipop.io/v1.1/package/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:7b841302b60302abv"
   ```
 
 
@@ -355,7 +355,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/b2b/best/main
+  /v1.1/package/best/main
 
 * **Method:**
 
@@ -471,7 +471,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/best/main?pageNumber=1&pageSize=2&languageCode=en" \ 
+  curl --location --request GET "https://bapi.stipop.io/v1.1/package/best/main?pageNumber=1&pageSize=2&languageCode=en" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -594,7 +594,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/download/all
+  /v1.1/package/download/all
 
 * **Method:**
 
@@ -727,7 +727,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/download/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
+  curl --location --request GET "https://bapi.stipop.io/v1.1/package/download/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -736,7 +736,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/download/main
+  /v1.1/package/download/main
 
 * **Method:**
 
@@ -851,7 +851,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/download/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
+  curl --location --request GET "https://bapi.stipop.io/v1.1/package/download/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -860,7 +860,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/download
+  /v1.1/package/download
 
 * **Method:**
 
@@ -965,7 +965,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request POST "https://bapi.stipop.io/v1/package/b2b/download/main" \ 
+  curl --location --request POST "https://bapi.stipop.io/v1.1/package/download/main" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
@@ -974,7 +974,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/download
+  /v1.1/package/download
 
 * **Method:**
 
@@ -1069,7 +1069,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request DELETE "https://bapi.stipop.io/v1/package/b2b/download/main" \ 
+  curl --location --request DELETE "https://bapi.stipop.io/v1.1/package/download/main" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
