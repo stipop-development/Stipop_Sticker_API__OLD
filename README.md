@@ -210,8 +210,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 3) Best Package API - 1( Coming soon after 16 March)
-
+## 3) Best Package API - 1
 * **URL**
 
   /v1/package/b2b/best/all
@@ -230,9 +229,9 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Request Parameters**
 
   **Required:** <br />
-   `pageNumber=[integer]` greater than 1<br />
-   `pageSize=[integer]` greater than 1<br />
-   `stickerSize=[integer]` greater than 1<br />
+   `pageNumber=[integer]` minimum 1<br />
+   `pageSize=[integer]` minimum 1<br />
+   `stickerSize=[integer]` minimum 1, maximum 30 <br />
    `languageCode=[string]` all:Common, en:English, es:Spanish, ko:Korean <br />
    `thumbnail=[integer]` if gif, value 1 shows thumbnail(png format) , default 0<br />
 
@@ -352,7 +351,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 4) Best Package - 2 API ( Coming soon after 16 March)
+## 4) Best Package - 2 API
 
 * **URL**
 
@@ -372,8 +371,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Request Parameters**
 
   **Required:** <br />
-   `pageNumber=[integer]` greater than 1<br />
-   `pageSize=[integer]` greater than 1<br />
+   `pageNumber=[integer]` minimum 1<br />
+   `pageSize=[integer]` minimum 1<br />
    `languageCode=[string]` all:Common, en:English, es:Spanish, ko:Korean <br />
 
 * **Success Response:**
@@ -477,7 +476,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 5) Package Detail API ( Coming soon after 16 March)
+## 5) Package Detail API
 
 * **URL**
 
@@ -591,7 +590,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 6) User Download Package - 1 API ( Coming soon after 16 March)
+## 6) User Download Package - 1 API
 
 * **URL**
 
@@ -612,9 +611,9 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   **Required:** <br />
    `userId=[string]` values ​​that can identify end users<br />
-   `pageNumber=[integer]` greater than 1<br />
-   `pageSize=[integer]` greater than 1<br />
-   `stickerSize=[integer]` greater than 1<br />
+   `pageNumber=[integer]` minimum 1<br />
+   `pageSize=[integer]` minimum 1<br />
+   `stickerSize=[integer]` minimum 1, minimum 30<br />
    `thumbnail=[integer]` if gif, value 1 shows thumbnail(png format) , default 0<br />
 
 * **Success Response:**
@@ -733,7 +732,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 7) User Download Package - 2 API ( Coming soon after 16 March)
+## 7) User Download Package - 2 API
 
 * **URL**
 
@@ -754,8 +753,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
   **Required:** <br />
    `userId=[string]` values ​​that can identify end users<br />
-   `pageNumber=[integer]` greater than 1<br />
-   `pageSize=[integer]` greater than 1<br />
+   `pageNumber=[integer]` minimum 1<br />
+   `pageSize=[integer]` minimum 1<br />
 
 * **Success Response:**
 
@@ -857,7 +856,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 8) User Download Package - 3 API ( Coming soon after 16 March)
+## 8) User Download Package - 3 API
 
 * **URL**
 
@@ -971,7 +970,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 9) User Download Package - 4 API ( Coming soon after 16 March)
+## 9) User Download Package - 4 API 
 
 * **URL**
 
