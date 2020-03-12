@@ -873,7 +873,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
    `apikey=[string]` Issued apikey value
 
 
-* **Request Parameters**
+* **Request Body**
 
   **Required:** <br />
    `packageId=[integer]`<br />
@@ -965,7 +965,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request POST "https://bapi.stipop.io/v1.1/package/download/main" \ 
+  curl --location --request POST "https://bapi.stipop.io/v1.1/package/download/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
@@ -987,7 +987,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
    `apikey=[string]` Issued apikey value
 
 
-* **Request Parameters**
+* **Request Body**
 
   **Required:** <br />
    `packageId=[integer]`<br />
@@ -1069,7 +1069,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request DELETE "https://bapi.stipop.io/v1.1/package/download/main" \ 
+  curl --location --request DELETE "https://bapi.stipop.io/v1.1/package/download/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
