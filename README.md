@@ -213,7 +213,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 ## 3) Best Package API - 1
 * **URL**
 
-  /v1/package/b2b/best/all
+  /v1.1/package/best/all
 
 * **Method:**
 
@@ -355,7 +355,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/b2b/best/main
+  /v1.1/b2b/best/main
 
 * **Method:**
 
@@ -480,7 +480,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/b2b/detail
+  /v1.1/package/:packageId
 
 * **Method:**
 
@@ -585,7 +585,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/b2b/detail?packageId=198" \ 
+  curl --location --request GET "https://bapi.stipop.io/v1.1/package/198" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -594,7 +594,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/b2b/download/all
+  /v1/package/download/all
 
 * **Method:**
 
@@ -736,7 +736,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/b2b/download/main
+  /v1/package/download/main
 
 * **Method:**
 
@@ -860,7 +860,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/b2b/download
+  /v1/package/download
 
 * **Method:**
 
@@ -974,7 +974,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/b2b/download
+  /v1/package/download
 
 * **Method:**
 
