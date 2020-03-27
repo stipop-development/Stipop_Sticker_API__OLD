@@ -590,11 +590,11 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   ```
 
 
-## 6) User Download Package - 1 API
+## 6) User Bookmark Package - 1 API
 
 * **URL**
 
-  /v1.1/package/download/all
+  /v1.1/package/bookmark/all
 
 * **Method:**
 
@@ -727,16 +727,16 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/download/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
+  curl --location --request GET "https://bapi.stipop.io/v1.1/package/bookmark/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
 
-## 7) User Download Package - 2 API
+## 7) User Bookmark Package - 2 API
 
 * **URL**
 
-  /v1.1/package/download/main
+  /v1.1/package/bookmark/main
 
 * **Method:**
 
@@ -851,16 +851,16 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/download/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
+  curl --location --request GET "https://bapi.stipop.io/v1.1/package/bookmark/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
 
-## 8) User Download Package - 3 API
+## 8) User Bookmark Package - 3 API
 
 * **URL**
 
-  /v1.1/package/download
+  /v1.1/package/bookmark
 
 * **Method:**
 
@@ -965,16 +965,16 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request POST "https://bapi.stipop.io/v1.1/package/download/" \ 
+  curl --location --request POST "https://bapi.stipop.io/v1.1/package/bookmark/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
 
-## 9) User Download Package - 4 API 
+## 9) User Bookmark Package - 4 API 
 
 * **URL**
 
-  /v1.1/package/download
+  /v1.1/package/bookmark
 
 * **Method:**
 
@@ -1069,7 +1069,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request DELETE "https://bapi.stipop.io/v1.1/package/download/" \ 
+  curl --location --request DELETE "https://bapi.stipop.io/v1.1/package/bookmark/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
