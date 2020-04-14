@@ -1439,33 +1439,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     "header": {
         "status": "success",
         "code": "0000"
-    },
-    "body": [
-        {
-            "packageId": 2267,
-            "packageName": "Happy life of Merry",
-            "stickerId": 46523,
-            "stickerImgUrl": "https://img.stipop.io/2019/9/11/......2022607_c.gif",
-            "stickerTags": [
-                "dog",
-                "celebrity",
-                "cute"
-            ],
-            "commitDate": "2019-09-17 11:21:21"
-        },
-        {
-            "packageId": 2267,
-            "packageName": "Happy life of Merry",
-            "stickerId": 46535,
-            "stickerImgUrl": "https://img.stipop.io/2019/9/11/......2024110_o.gif",
-            "stickerTags": [
-                "dog",
-                "celebrity"
-            ],
-            "commitDate": "2019-09-17 11:21:21"
-        }
-        ]
-        }
+    }
+    }
     ```
  
 * **Error Response:**
