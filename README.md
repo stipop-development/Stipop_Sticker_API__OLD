@@ -1435,10 +1435,23 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
   * **Code:** 200 <br />
     **Content:** <br />
     ```json
-   {
+      {
     "header": {
         "status": "success",
         "code": "0000"
+    },
+    "body": [
+        {
+            "stickerId": 10818,
+            "stickerImgUrl": "https://img.stipop.io/.....27154236_raon_02.gif",
+            "packageId": 645
+        },
+        {
+            "stickerId": 10816,
+            "stickerImgUrl": "https://img.stipop.io/.....27154229_raon_01.gif",
+            "packageId": 645
+        }
+        ]
     }
     ```
  
