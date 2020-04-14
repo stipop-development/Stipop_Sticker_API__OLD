@@ -1425,8 +1425,8 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Request Body**
 
   **Required:** <br />
-   `packageName=[string]` Only one of two attributes is allowed ; packageName or stickerTag<br />
-   `stickerTag=[string]` Only one of two attributes is allowed ; packageName or stickerTag<br />
+   `packageName=[string]` only one of two attributes is allowed ; packageName or stickerTag<br />
+   `stickerTag=[string]` only one of two attributes is allowed ; packageName or stickerTag<br />
    `pageNumber=[integer]` default value 0<br />
    `pageSize=[integer]` default value 10<br />
 
@@ -1477,7 +1477,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     ```json
     {
       "status": "fail",
-      "message": "from or size is only number",
+      "message": "pageNumber or pageSize is only number",
       "code": "9032"
     }
     ```
@@ -1487,7 +1487,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     ```json
     {
       "status": "fail",
-      "message": "keyword is only character",
+      "message": "stickerTag or packageName is only character",
       "code": "9033"
     }
     ```
