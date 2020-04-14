@@ -1442,17 +1442,33 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
     },
     "body": [
         {
-            "stickerId": 10818,
-            "stickerImgUrl": "https://img.stipop.io/.....27154236_raon_02.gif",
-            "packageId": 645
+            "packageId": 1879,
+            "packageName": "Heart collection",
+            "stickerId": 38008,
+            "stickerImgUrl": "https://img.stipop.io/2019/8/12/......5582442_todangi_01.gif",
+            "stickerTags": [
+                "heart",
+                "cute",
+                "activity",
+                "funny",
+                "love"
+            ],
+            "commitDate": "2019-08-12 16:50:46"
         },
         {
-            "stickerId": 10816,
-            "stickerImgUrl": "https://img.stipop.io/.....27154229_raon_01.gif",
-            "packageId": 645
+            "packageId": 1879,
+            "packageName": "Heart collection",
+            "stickerId": 38013,
+            "stickerImgUrl": "https://img.stipop.io/2019/8/12/......5583842_goodday_06.gif",
+            "stickerTags": [
+                "heart",
+                "cute",
+                "activity",
+                "funny",
+                "love"
+            ],
+            "commitDate": "2019-08-12 16:50:46"
         }
-        ]
-    }
     ```
  
 * **Error Response:**
