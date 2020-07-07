@@ -4,7 +4,7 @@
 </h1>
 
 
-<h4 align="center">This version of API will be inactive by 15th of July. Please visit https://github.com/stipop-development/Sticker_Library_API for the correct version. Thank you.</h4>
+<h4 align="center">This version of API will be inactive by 15th of July. <br> Please visit https://github.com/stipop-development/Sticker_Library_API for the correct version. Thank you.</h4>
 
 <p align="center">
   <a href="#Intro">Intro</a> •
